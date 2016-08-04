@@ -28,6 +28,22 @@
           <a href="https://github.com/souce/blog" id="view-on-github" class="button"><span>View on GitHub</span></a>
         </section>
 
+
+<h1 id="redis字符串的操作">redis字符串的操作</h1>
+
+<p>版本2.8.24</p>
+
+<p>在t_string.c文件的94行setCommand函数是redis处理set的流程入口，</p>
+
+<p>在100行的循环从第三个参数开始解析 “set key value xxx xxx” 也就是从value开始解析起：</p>
+
+
+
+<pre class="prettyprint"><code class="language-c hljs "><span class="hljs-keyword">for</span> (j = <span class="hljs-number">3</span>; j &lt; c-&gt;argc; j++) {
+	    ...
+}</code></pre>
+
+
         <hr>
 
         <section id="main_content">
