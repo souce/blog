@@ -1,2 +1,12 @@
 ﻿baseurl: /blog
-
+markdown: redcarpet
+  redcarpet:
+    extensions:
+      - hard_wrap
+      - no_intra_emphasis
+      - autolink
+      - strikethrough
+      - fenced_code_blocks
+      - with_toc_data
+      - tables
+      - underline
