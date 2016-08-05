@@ -1,4 +1,4 @@
 ﻿baseurl: /blog
-pygments: true
+highlighter: rouge
 safe: true
 auto: true
