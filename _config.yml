@@ -1,0 +1,40 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 4 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+disqus: joel
+google_analytics: joel
+title: joel
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: joel
+
+description: Stylish Jekyll Theme
+author:
+  name: joel
+  email: bin3340@163.com
+  github: souce
+  twitter: 
+  pinterest: 
+  linkedin: 
+  bio: 开黑吗？带我一个，我玩D.va贼溜~
+  avatar_url: https://avatars2.githubusercontent.com/u/3376130?v=3&s=160
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH: /blog
+
+gems:
+  - jekyll-paginate
