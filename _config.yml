@@ -1,4 +1,5 @@
-﻿baseurl: /blog
+baseurl: /blog
+markdown: kramdown
 highlighter: rouge
 safe: true
 auto: true
