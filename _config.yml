@@ -6,7 +6,7 @@ exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
 disqus: joel
-google_analytics: joel
+google_analytics: 
 title: joel
 
 defaults:
