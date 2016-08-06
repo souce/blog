@@ -11,7 +11,7 @@ group: navigation
       {% if categories_list.first[0] == null %}
         {% for category in categories_list %}
             <li>
-                <a href="#{{ category | replace:' ','-' }}-ref">
+                <a href="#{{ category | replace:' ','-' }}-ref" data-toggle="tab">
                   {{ category | capitalize }} <span class="badge pull-right">{{ site.categories[category].size }}</span>
                </a>
             </li>
@@ -19,7 +19,7 @@ group: navigation
       {% else %}
         {% for category in categories_list %}
             <li>
-                <a href="#{{ category[0] | replace:' ','-' }}-ref">
+                <a href="#{{ category[0] | replace:' ','-' }}-ref" data-toggle="tab">
                     {{ category[0] | capitalize }} <span class="badge pull-right">{{ category[1].size }}</span>
                 </a>
             </li>
